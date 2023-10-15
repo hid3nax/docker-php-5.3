@@ -123,6 +123,11 @@ RUN set -eux; \
       re2c \
       xz-utils \
       zlib1g-dev \
+      ghostscript \
+      imagemagic \
+      pdftk \
+      wkhtmltopdf \
+      libreoffice \
     ; \
     apt-get clean; \
     rm -rf /var/lib/apt/lists/*
@@ -253,6 +258,11 @@ RUN set -eux; \
       pkg-config \
       re2c \
       xz-utils \
+      ghostscript \
+      imagemagic \
+      pdftk \
+      wkhtmltopdf \
+      libreoffice \
     ; \
     # Install MySQL 5.7 client library and headers (the system package is compiled against OpenSSL 1.1)
     cd /usr/src; \
