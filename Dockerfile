@@ -126,6 +126,7 @@ RUN set -eux; \
       ghostscript \
       imagemagic \
       pdftk \
+      poppler-utils \
       wkhtmltopdf \
       libreoffice \
     ; \
@@ -261,6 +262,7 @@ RUN set -eux; \
       ghostscript \
       imagemagic \
       pdftk \
+      poppler-utils \
       wkhtmltopdf \
       libreoffice \
     ; \
